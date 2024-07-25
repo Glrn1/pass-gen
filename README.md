@@ -1,1 +1,1 @@
-# pass-gen
+Simple pass generator
