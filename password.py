@@ -2,6 +2,7 @@ import random
 import string
 
 special_characters = "!@#$"
+
 def gerar_senha():
     tamanho_senha = 14
     caracteres_permitidos = string.ascii_letters + string.digits + special_characters
