@@ -3,12 +3,12 @@ import string
 
 special_characters = "!@#$"
 
-def gerar_senha():
+def gen_pass():
     tamanho_senha = 14
-    caracteres_permitidos = string.ascii_letters + string.digits + special_characters
+    chars = string.ascii_letters + string.digits + special_characters
 
-    senha = ''.join(random.choice(caracteres_permitidos) for _ in range(tamanho_senha))
-    return senha
+    password = ''.join(random.choice(chars) for _ in range(tamanho_senha))
+    return password
 
-senha_aleatoria = gerar_senha()
-print("Password:", senha_aleatoria)
+random_pass = gen_pass()
+print("Password:", random_pass)
